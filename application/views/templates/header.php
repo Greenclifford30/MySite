@@ -10,7 +10,11 @@
 </head>
 <body>
 
-
+<div class = "ui menu">
+	<a class = "item">About</a>
+	<a class = "item">Portfolio</a>
+	<a class = "item">Contact</a>
+</div>
 
 
 
