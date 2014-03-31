@@ -17,8 +17,11 @@ class Pages extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see http://codeigniter.com/user_guide/general/urls.html
 	 */
-	public function index()
+	public function index($page = 'home')
 	{
+		$data['title'] = $page;
+		$this->load->view('templates/header.php', $data);
 		$this->load->view('welcome_message');
+		$this->load->view('templates/footer.php');
 	}
 }
