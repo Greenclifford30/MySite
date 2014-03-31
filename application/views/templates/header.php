@@ -10,7 +10,7 @@
 </head>
 <body>
 
-<div class = "ui menu">
+<div class = "ui inverted menu">
 	<a class = "item">About</a>
 	<a class = "item">Portfolio</a>
 	<a class = "item">Contact</a>
