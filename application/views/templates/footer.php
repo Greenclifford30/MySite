@@ -1,5 +1,5 @@
 <div> 
-	<div class = "ui inverted menu">
+	<div class = "ui large inverted menu">
 		<div class = "right menu">
 			<a class = "active item">About</a>
 			<a class = "item">Portfolio</a>
@@ -7,7 +7,6 @@
 		</div>
 	</div>
 </div>
-
-
 </body>
+
 </html>
